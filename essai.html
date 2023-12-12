@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Projet1</title>
+	<META charset="'utf-8">
+	<STYLE TYPE="text/css">
+		.entete{
+			width: 100%;
+			height:70px;
+			background-color: grey; 
+		}
+		.corps{
+			width: 100%;
+			height: 510px;
+			border: solid black 2px;
+
+		}
+		.pied{
+			width: 100%;
+			height:70px;
+			background-color: grey;
+
+		}
+		.logo{
+			width: 25%;
+			height: 68px; 
+			display: inline-block;
+		}
+		.menu{
+			width: 70%;
+			height: 68px;
+			display: inline-block;
+			margin-left: 4%;
+		}
+		#text1{
+			color: white;
+			display: inline-block;
+
+		}
+		#text2{
+			color: pink;
+			display: inline-block;
+		}
+
+		li{
+			display: inline-block;
+			margin-left: 3%;
+		}
+		a{
+			text-decoration: none ;
+			color: white;
+		}
+		#img{
+			width: 100%;
+			height: 100%;
+			background-image: scroll;
+
+
+		}
+		.form{
+			width: 30%;
+			height: 290px;
+			position: relative;
+			margin-top: -33%;
+			margin-left: 12%;
+			color: white;
+			}
+			.video{
+				width: 30%;
+			height: 290px;
+			position: relative;
+			margin-top: -22%;
+			margin-left: 50%;
+			}
+			label{
+				font-size: 2em;
+			}
+	</STYLE>
+</head>
+<body>
+	<HEADER class="entete">
+		<div class="logo">
+			<h1 id="text1">LUCE</h1>
+			<h1 id="text2">BOUTIQUE</h1>
+		</div>
+
+		<div class="menu">
+			
+			<nav>
+				<ul>
+					<li><a href="#">DOMICILE</a></li>
+					<li><a href="#">NOTRE HISTOIRE</a></li>
+					<li><a href="#">MARQUE</a></li>
+					<li><a href="#">FAIRE LA COMMENDE</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+
+		</div>
+
+		
+	</HEADER>
+
+	<div class="corps">
+			<img src="fond.png" id="img">
+			<div class="form">
+						<h1>Formulaire D'inscription</h1>
+					<form method="post" action="">
+						<label>Username</label> <input type="" name="Username"><br> <br>
+						<label>Adresse</label> <input type="" name="Adresse"><br> <br>
+						<label>Email</label> <input type="" name="Email"><br> <br>
+						<label>Password</label> <input type="" name="Password"><br> <br>
+						<label>Confirmez votre Password</label> <input type="" name="CPassword"><br> <br>
+						<input type="submit" name="Inscrire" value="Inscrire">
+					</form>
+			</div>
+
+			<div class="video">
+				<video  id="backouground-video" autoplay loop muted controls>
+                <source src="video.mp4" type="video/mp4">
+
+            </video> 
+            
+			</div>
+	</div>
+
+
+	<FOOTER class="pied">
+		
+	</FOOTER>
+
+</body>
+</html>
